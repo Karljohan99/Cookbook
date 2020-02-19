@@ -3,50 +3,62 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="description" content="Cookbook: Eesti maitsvaim retseptiveeb">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta content="Cookbook: Eesti maitsvaim retseptiveeb" name="description">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
 
     <title>Cookbook</title>
 
-    <link rel="stylesheet" href="reset.css" />
-    <link rel="stylesheet" href="style.css" />
+    <link href="reset.css" rel="stylesheet"/>
+    <link href="style.css" rel="stylesheet"/>
 </head>
 <body>
 <header>
-    <h1>Cookbook</h1>
-    <h2>Eesti maitsvaim retseptiveeb</h2>
-</header>
+    <div class="header-title">
+        <h1>Cookbook</h1>
+        <h2>Eesti maitsvaim retseptiveeb</h2>
+    </div>
 
-<main>
-    <div>
+    <div class="header-buttons">
         <h3>RETSEPTID</h3>
         <h3>VÕTA ÜHENDUST</h3>
     </div>
 
-    <div class="container">
-        <img src="img/pilt.png"/>
+    <div class="header-banner">
+        <img src="img/banner.jpg"/>
     </div>
 
-    <div>
+</header>
+
+<main>
+    <section class="about-us-section">
         <h3>MEIST</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            Morbi semper molestie quam ac aliquet.
-            Fusce finibus eros faucibus, cursus erat at, malesuada magna.
-            Donec maximus sed neque venenatis condimentum. Etiam ac lectus ipsum.
-            Sed imperdiet mauris nec tristique pulvinar.
-            Suspendisse condimentum purus at est gravida interdum vel et sem.
-            Nulla elit leo, mollis sit amet mollis sed, scelerisque eu quam. Vivamus id dignissim massa.</p>
+        <div class="about-us">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Morbi semper molestie quam ac aliquet.
+                Fusce finibus eros faucibus, cursus erat at, malesuada magna.
+                Donec maximus sed neque venenatis condimentum. Etiam ac lectus ipsum.
+                Sed imperdiet mauris nec tristique pulvinar.
+                Suspendisse condimentum purus at est gravida interdum vel et sem.
+                Nulla elit leo, mollis sit amet mollis sed, scelerisque eu quam. Vivamus id dignissim massa.</p>
 
-        <img src="img/pilt.png"/>
-    </div>
+            <img src="img/kokk.jpg"/>
+        </div>
+    </section>
 
-    <h3>RETSEPTID</h3>
-
-    <div>
-        <img src="img/pilt.png"/>
-        <img src="img/pilt.png"/>
-        <img src="img/pilt.png"/>
-    </div>
+    <section class="recipes-section">
+        <h3 id="retseptid">RETSEPTID</h3>
+        <div class="recipes-container">
+            <div class="kitchen" id="eesti">
+                EESTI KÖÖK
+            </div>
+            <div class="kitchen" id="aasia">
+                AASIA KÖÖK
+            </div>
+            <div class="kitchen" id="itaalia">
+                ITAALIA KÖÖK
+            </div>
+        </div>
+    </section>
 </main>
 
 <footer>
@@ -55,6 +67,11 @@
         <li>tel: 55555555</li>
         <li>@: email@email.com</li>
     </ul>
+
+    <div class="social-media">
+        <a href="#"><img src="img/instagram-32.png" alt="instagram" /></a>
+        <a href="#"><img src="img/facebook-3-32.png" alt="facebook" /></a>
+    </div>
 </footer>
 </body>
 

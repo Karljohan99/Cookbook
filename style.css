@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css?family=Gentium+Basic:400,400i,700,700i&display=swap&subset=latin-ext');
+
+.header-banner img {
+    width: 100%;
+    height: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+header{
+    font-family: "Gentium Basic", serif;
+    color: #000000;
+    text-transform: uppercase;
+}
+.header-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.header-title h1 {
+    font-weight: 500;
+    font-size: 50px;
+}
+h2 {
+    font-size: 20px;
+}
+.header-title h2 {
+    font-weight: 300;
+    font-style: italic;
+}
+.header-buttons {
+    display: flex;
+    justify-content: space-around;
+}
+h3 {
+    font-weight: 200;
+    font-size: 20px;
+}
+body {
+    margin: 0;
+}
+section{
+    font-family: "Gentium Basic", serif;
+}
+.about-us {
+    display: flex;
+    justify-content: space-around;
+}
+.about-us p {
+    width: 100%;
+}
+.about-us img {
+    display: none;
+}
+.recipes-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+ }
+.kitchen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    text-align: center;
+    text-shadow: -1.5px 0 black, 0 1.5px black, 1.5px 0 black, 0 -1.5px black;
+    color: #ffffff;
+    font-family: serif;
+    font-size: 25px;
+}
+#eesti {
+    background: url("img/eesti.jpg") no-repeat;
+    background-size: 200px;
+}
+#aasia {
+    background: url("img/aasia.jpg") no-repeat;
+    background-size: 200px;
+}
+#itaalia {
+    background: url("img/itaalia.jpg") no-repeat;
+    background-size: 200px;
+}
+
+.recipes-container h2{
+
+}
+footer {
+    background-color: #d3d3d3;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+ul {
+    list-style-type: none;
+}
+.social-media{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 50px;
+}
+
+@media only screen and (min-width: 950px) {
+    .header-banner img {
+        width: calc(100% - 200px);
+        height: auto;
+        margin: 0 100px;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .header-title h1 {
+        font-size: 60px;
+    }
+    h2 {
+        font-size: 30px;
+    }
+    h3 {
+        font-size: 25px;
+    }
+    section{
+        margin: 0 120px;
+    }
+    .about-us p {
+        font-size: 18px;
+        margin-right: 40px;
+    }
+    .about-us img {
+        display: flex;
+        width: calc(50% - 80px);
+    }
+    .recipes-container {
+        flex-direction: row;
+        margin: 20px 10px;
+    }
+    #retseptid {
+        display: none;
+    }
+}
