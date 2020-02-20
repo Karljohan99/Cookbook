@@ -25,9 +25,11 @@ header{
 .header-title h1 {
     font-weight: 500;
     font-size: 50px;
+    margin-bottom: 20px;
 }
 h2 {
     font-size: 20px;
+    margin: 10px 0;
 }
 .header-title h2 {
     font-weight: 300;
